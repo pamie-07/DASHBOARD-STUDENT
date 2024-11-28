@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <!-- Navigation Bar -->
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand ps-3" href="index.html"> 
+                <img src="C:\Users\pamela\Desktop\DASHBOARD\img\logologo.jpg" style="width: 48px; height: 45px; border-radius: 55px;">
+                <b>PD Academy</b>
+            </a>
+            <button class="btn btn-link btn-sm order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </nav>
+        <div id="layoutSidenav">
+            <!-- Sidebar -->
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Interface</div>
+                            <a class="nav-link active" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Dashboard
+                            </a>
+                            <a class="nav-link" href="student.html">
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-users"></i></div>
+                                Students
+                            </a>
+                            <a class="nav-link" href="student.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-user-graduate"></i></div>
+                                Teachers
+                            </a><a class="nav-link" href="student.html">
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-file"></i></div>
+                                Attendance
+                            </a>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Students Level
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="layout-static.html">Undergraduates</a>
+                                    <a class="nav-link" href="layout-sidenav-light.html">Graduates</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Logged in as:</div>
+                        ADMIN
+                    </div>
+                </nav>
+            </div>
+            <!-- Main Content -->
+            <div id="layoutSidenav_content" style="background-color:#F9DC5C;">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h4>Dashboard</h4>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Dashboard</li>
+                        </ol>
+                        <hr />
+
+                        <!-- Top Cards Section -->
+            <div class="row d-flex justify-content-evenly">
+               <div class="col-md-2" >
+                <div class="card text-center shadow p-2" style="background-color:#FEC868;">
+                  <div class="card-body">
+                    <h5 class="card-title text-dark"><i class="fa-solid fa-chalkboard-user" style="color: black;"></i> 
+                     Teachers <br>
+                       <img src="C:\Users\pamela\Desktop\DASHBOARD\img\10 percentage.jpg" style="width:85px; height:75px; justify-content:space-between; border-radius: 38px;box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);">
+                   </h5>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-md-2" >
+                <div class="card text-center shadow p-2" style="background-color:#FEC868;">
+                  <div class="card-body">
+                    <h5 class="card-title text-dark"><i class="fa-solid fa-chalkboard-user" style="color: black;"></i> 
+                     Students <br>
+                       <img src="C:\Users\pamela\Desktop\DASHBOARD\img\10 percentage.jpg" style="width:85px; height:75px; justify-content:space-between; border-radius: 38px;box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);">
+                   </h5>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-3" >
+                <div class="card text-center shadow p-2" style="background-color:#FEC868;">
+                  <div class="card-body">
+                    <h5 class="card-title text-dark"><i class="fa-solid fa-chalkboard-user" style="color: black;"></i> 
+                     Transferee Students<br>
+                       <img src="C:\Users\pamela\Desktop\DASHBOARD\img\10 percentage.jpg" style="width:85px; height:75px; justify-content:space-between; border-radius: 38px;box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);">
+                   </h5>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-2" >
+                <div class="card text-center shadow p-2" style="background-color:#FEC868;">
+                  <div class="card-body">
+                    <h5 class="card-title text-dark"><i class="fa-solid fa-chalkboard-user" style="color: black;"></i> 
+                     Drop Students <br>
+                       <img src="C:\Users\pamela\Desktop\DASHBOARD\img\10 percentage.jpg" style="width:85px; height:75px; justify-content:space-between; border-radius: 38px;box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);">
+                   </h5>
+                  </div>
+                </div>
+                </div>
+                        </div><br>
+                        
+
+<div class="row g-3 mb-4 d-flex justify-content-evenly">
+  <div class="col-lg-6">
+    <div class="card" style="background-color:#FEC868;">
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">
+          <i class="fa-solid fa-square-poll-vertical"></i> Total Earnings
+        </h5>
+
+        <!-- Progress Section -->
+        <div class="progress-section w-100">
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> August</p>
+          <div class="progress" role="progressbar" aria-label="Muted example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-dark" style="width: 75%">75%</div>
+            </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> September</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 25%">25%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> October</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 50%">50%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> November</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 50%">50%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> December</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 85%">85%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> January</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 25%">25%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> February</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 25%">25%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> March</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 28%">28%</div>
+          </div><br>
+
+          <p><i class="fa-regular fa-calendar-days" style="color:#192233;"></i> April</p>
+          <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-dark" style="width: 25%">25%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="col-md-6">
+  <div class="card text-white" style="background-color:#FEC868;">
+    <div class="card-body">
+      <h5 class="card-title text-center text-dark"><i class="fa-regular fa-calendar"></i> Events Calendar</h5><br>
+      
+      <!-- Events -->
+      <div class="event" style="background-color:#1e2025; border-radius: 8px;">
+        <h6>Event 1: Foundation Day</h6>
+        <p class="text-center">November 30, 2024 <br>Celebrate the school’s founding anniversary with fun activities and performances
+      </div>
+      <hr>
+
+      <div class="event" style="background-color:#1e2025; border-radius: 8px;">
+        <h6>Event 2: Sports Fest</h6>
+        <p class="text-center">December 10-12, 2024 <br>A three-day event filled with sports competitions and team-building games.</p>
+       
+      </div>
+      <hr>
+
+      <div class="event" style="background-color:#1e2025; border-radius: 8px;">
+        <h6>Event 3: Science Fair</h6>
+        <p class="text-center"> January 15, 2025 <br>Showcasing innovative projects and experiments by students.</p>
+      </div>
+      <hr>
+
+      <div class="event" style="background-color:#1e2025; border-radius: 8px;">
+        <h6>Event 4: Cultural Night</h6>
+        <p class="text-center">February 14, 2025 <br>A night celebrating diverse cultures through music, dance, and food.</p>
+      </div>
+      <hr>
+
+      <div class="event" style="background-color:#1e2025; border-radius: 8px;">
+        <h6>Event 5: Recognition Day</h6>
+        <p class="text-center"> March 20, 2025 <br>Honoring students with outstanding academic and extracurricular achievements.</p>
+      </div>
+      <hr>
+
+      <div class="event" style="background-color:#1e2025; border-radius: 8px;">
+        <h6>Event 6: Graduation Ceremony</h6>
+        <p class="text-center">April 5, 2025 <br>Celebrating the graduating students’ accomplishments and milestones.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
